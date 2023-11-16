@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styleVendor.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Magwai</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+          <div class="wrapper">
+            <div class="header__body">
+              <div class="header__burger">
+                <span class="header__burger-line--mid"></span>
+              </div>
+              <a class="header__logo" href="#">
+                <img src="./images/svg/logo.svg" alt="logo" />
+              </a>
+        
+              <nav class="header__menu">
+                <ul class="header__list">
+                  <li class="header__menu-item">
+                    <a href="#">Услуги</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#">Абонементы</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#">Почему мы</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#">Оборудование</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#">Акции</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#">FAQ</a>
+                  </li>
+                  <li class="header__menu-item">
+                    <a href="#">Контакты</a>
+                  </li>
+                </ul>
+                <div class="header__contact-mobile">
+                  <a href="tel:+79999999999" class="header__link--tel">
+                    <img
+                      width="21"
+                      height="20"
+                      src="./images/svg/phone.svg"
+                      alt="phone"
+                    />
+                  </a>
+                  <a href="#popup" class="popup-link">
+                    <span class="popup-link__text">Оставить заявку</span>
+                  </a>
+                </div>
+              </nav>
+              <div class="header__contact">
+                <a href="tel:+79999999999" class="header__link--tel">
+                  <img
+                    width="21"
+                    height="20"
+                    src="./images/svg/phone.svg"
+                    alt="phone"
+                  />
+                </a>
+                <a href="#popup" class="popup-link">
+                  <span class="popup-link__text">Оставить заявку</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </header>
+        <main class="main">
+          <section class="main__swiper">
+            <div class="main__swiper-container swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide swiper-slide">
+                  <img
+                    class="swiper-slide__image"
+                    width="1920"
+                    height="1030"
+                    src="./images/static/slider-1.webp"
+                    alt="planet image"
+                  />
+                  <div class="swiper-slide__content">
+                    <div class="swiper-slide__text">
+                      <h1 class="swiper-slide__title">
+                        Полет Илона Маска и DOGIE COIN
+                      </h1>
+                      <span class="swiper-slide__subtitle"
+                        >В прошлый четверг все офигели от полета DOGIE COIN на
+                        марс.</span
+                      >
+                      <a href="#popup" class="popup-link">
+                        <span class="popup-link__text">Оставить заявку</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide">
+                  <img
+                    class="swiper-slide__image"
+                    width="1920"
+                    height="1030"
+                    src="./images/static/slider-2.webp"
+                    alt="stars image"
+                  />
+                  <div class="swiper-slide__content">
+                    <div class="swiper-slide__text">
+                      <h1 class="swiper-slide__title">
+                        Полет Илона Маска и DOGIE COIN
+                      </h1>
+                      <span class="swiper-slide__subtitle"
+                        >В прошлый четверг все офигели от полета DOGIE COIN на
+                        марс.</span
+                      >
+                      <a href="#popup" class="popup-link">
+                        <span class="popup-link__text">Оставить заявку</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide swiper-slide">
+                  <img
+                    class="swiper-slide__image"
+                    width="1920"
+                    height="1030"
+                    src="./images/static/slider-3.webp"
+                    alt="money image"
+                  />
+                  <div class="swiper-slide__content">
+                    <div class="swiper-slide__text">
+                      <h1 class="swiper-slide__title">
+                        Полет Илона Маска и DOGIE COIN
+                      </h1>
+                      <span class="swiper-slide__subtitle"
+                        >В прошлый четверг все офигели от полета DOGIE COIN на
+                        марс.</span
+                      >
+                      <a href="#popup" class="popup-link">
+                        <span class="popup-link__text">Оставить заявку</span>
+                      </a>
+                      </a>
+                    </div>
+                  </div>
+                  <div class="swiper-slide__shadow"></div>
+                </div>
+              </div>
+              <div class="swiper-pagination main__swiper-pagination"></div>
+            </div>
+          </section>
+          <section class="main__cards">
+            <div class="main__cards-wrapper wrapper">
+              <h2 class="main__cards-title">Карточки</h2>
+              <div class="cards"></div>
+              <button class="btn-load-cards">
+                <span class="btn-load-cards__text">Загрузить ещё</span>
+              </button>
+            </div>
+          </section>
+        </main>
+        <div class="popup" id="popup">
+          <div class="popup__body">
+            <div class="popup__content">
+              <div class="popup__image">
+                <img
+                src="./images/static/moon.webp"
+                width="728"
+                height="880"
+                alt="moon"
+              />
+              </div>
+              <div class="popup__content-text">
+                <div class="popup__heading">
+                  <div class="popup__text">
+                    <h2 class="popup__title">Оставьте заявку</h2>
+                    <p class="popup__subtitle">
+                      Оставьте заявку и наш менеджер свяжется с вами в течение 10 -15
+                      минут
+                    </p>
+                  </div>
+                  <a class="popup__close close-popup" href="#">
+                    <img src="./images/svg/cross.svg" alt="" />
+                  </a>
+                </div>
+                <form id="form" class="popup__forms">
+                  <div class="popup__forms-body">
+                    <input
+                      class="popup__forms-form--name popup-form"
+                      id="name"
+                      type="text"
+                      placeholder="Ваше имя*"
+                    />
+                    <input
+                      class="popup__forms-form--email popup-form"
+                      id="email"
+                      type="text"
+                      placeholder="e-mail*"
+                    />
+                    <input
+                      class="popup__forms-form--phone popup-form"
+                      id="phone"
+                      type="text"
+                      placeholder="+7(___)"
+                    />
+                    <textarea class="popup__forms-form--message popup-form" name="" id="message" placeholder="Ваш вопрос*"></textarea>
+                    <div class="popup__submit">
+                      <button class="popup__btn-submit" type="submit">
+                        <span class="popup__btn-submit-text">Оставить заявку</span>
+                      </button>
+                      <p class="terms-of-use">
+                        Нажимая на кнопку “Оставить заявку” вы соглашаетесь с
+                        <a href="#" class="terms-of-use__link"
+                          >“Пользовательским соглашением”</a
+                        >
+                      </p>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <script src="./js/scriptsVendor.js" type="text/javascript"></script>
+    <script src="./js/api.js" type="text/javascript"></script>
+    <script src="./js/swiper.js" type="text/javascript"></script>
+    <script src="./js/cards.js" type="text/javascript"></script>
+    <script src="./js/inputsValidation.js" type="text/javascript"></script>
+    <script src="./js/modal.js" type="text/javascript"></script>
+    <script src="./js/header.js" type="text/javascript"></script>
+    
+</body>
+
+</html>
